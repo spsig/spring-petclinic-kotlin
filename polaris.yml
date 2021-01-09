@@ -8,9 +8,9 @@ project:
 capture:
   build:
     cleanCommands:
-    - shell: [gradlew.bat, -b, build.gradle.kts, --no-daemon, clean]
+    - shell: [gradlew, -b, build.gradle.kts, --no-daemon, clean]
     buildCommands:
-    - shell: [gradlew.bat, -b, build.gradle.kts, --no-daemon, build]
+    - shell: [gradlew, -b, build.gradle.kts, --no-daemon, build]
   fileSystem:
     ears:
       extensions: [ear]
